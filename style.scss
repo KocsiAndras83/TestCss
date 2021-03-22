@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+$backgroundColor: #22b573ff;
+$card-science: #1c1717ff;
+$card-nature: #f2f2f2ff;
+$yellowText: #e6a947ff;
+$whiteText: #a3a09dff;
+$titleText: #cbe7daff;
+// $cardTextTwo: #5a6363ff;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 95vh;
+  width: 100vw;
+  font-family: "Montserrat", sans-serif;
+  background: $backgroundColor;
+  font-size: 1.2rem;
+}
+
+h1 {
+  color: $titleText; 
+  display: flex;
+  justify-content: center;
+  letter-spacing: 10px;
+}
+
+h3, h2, h5 {
+  color: $yellowText;
+}
+
+p {
+  color: $whiteText;
+}
+
+.cards {
+  margin: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.science {
+  width: 33%;
+  height: 470px;
+  margin: 0rem 2rem;
+  background-color: $card-science;
+}
+
+.nature {
+  width: 33%;
+  heigth: 450px;
+  margin: 0rem 2rem;
+  background-color: $card-nature;
+  
+}
+
+.video {
+  width: 33%;
+  height: 470px;
+  margin: 0rem 2rem;
+  background-color: $card-science;
+}
+
+.text {
+  margin: 1rem;
+}
+
+  
+.burger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  border: none;
+  color: white;
+  background-color: black;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  cursor: pointer;
+}

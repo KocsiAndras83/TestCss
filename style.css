@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 95vh;
+  width: 100vw;
+  font-family: "Montserrat", sans-serif;
+  background: #22b573ff;
+  font-size: 1.2rem;
+}
+
+h1 {
+  color: #cbe7daff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  letter-spacing: 10px;
+}
+
+h3, h2, h5 {
+  color: #e6a947ff;
+}
+
+p {
+  color: #a3a09dff;
+}
+
+.cards {
+  margin: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.science {
+  width: 33%;
+  height: 470px;
+  margin: 0rem 2rem;
+  background-color: #1c1717ff;
+}
+
+.nature {
+  width: 33%;
+  heigth: 450px;
+  margin: 0rem 2rem;
+  background-color: #f2f2f2ff;
+}
+
+.video {
+  width: 33%;
+  height: 470px;
+  margin: 0rem 2rem;
+  background-color: #1c1717ff;
+}
+
+.text {
+  margin: 1rem;
+}
+
+.burger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  border: none;
+  color: white;
+  background-color: black;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
